@@ -1,0 +1,52 @@
+.tabel {
+    text-align: center;
+    
+}
+
+.history {
+    padding: 30px;
+    width: 1050px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 7px blanchedalmond;
+    background-color: rgb(240, 240, 240);
+    color: rgb(73, 73, 73);
+}
+
+.history th {
+    padding: 13px;
+    border: 1px solid rgb(120, 151, 187);
+    border-radius: 7px;
+
+}
+
+.history td {
+    padding: 13px;
+    border: 1px solid rgb(120, 151, 187);
+    border-radius: 7px;
+
+}
+
+.colums {
+    padding: 8px;
+    
+    background-color: rgb(182, 223, 255);
+
+    &:nth-child(even) {
+        background-color: white;
+    }
+}
+
+.headColums {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 15px;
+    
+    background-color: rgb(28, 75, 110);
+    color: blanchedalmond;
+}
